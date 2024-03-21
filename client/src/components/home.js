@@ -7,7 +7,7 @@ export default function Home() {
         <>
             <div className="bg-gradient-to-b from-[#0D1717] to-[#234141] h-screen flex flex-col justify-center items-center">
                 <div className="absolute top-0 left-0 m-4 ">
-                <img src="splitB.png" alt="Logo" width="100" height="100"/>
+                <img src="/splitB.png" alt="Logo" width="100" height="100"/>
                 </div>
                 <h1 className="text-7xl text-center text-[#55D3D3] font-bold mb-5">Split-Blitz</h1>
                 <p className="text-2xl text-center text-white mb-10">The easiest way to split bills with friends and family</p>

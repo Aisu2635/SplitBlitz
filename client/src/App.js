@@ -3,6 +3,7 @@ import Home from './components/home';
 import { Route, Routes } from 'react-router-dom';
 import Login from './components/login';
 import Dash from './components/dash';
+import Register from './components/register';
 
 function App() {
   return (
@@ -10,8 +11,9 @@ function App() {
 <Routes>
   <Route path='/' element={<Home/>}/>
   <Route path='/login' element={<Login/>}/>
-  <Route path='/Dashboard' element={<Dash/>}/>
-  <Route path='/*' element={<err/>}/>
+  <Route path='/dashboard' element={<Dash/>}/>
+  <Route path='/register' element={<Register/>}/>
+  <Route path='*' element={<err/>}/>
   </Routes>
 </>
   );
